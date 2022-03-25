@@ -11,6 +11,8 @@ import { PrincipalComponent } from './componentes/principal/principal.component'
 import { FormularioComponent } from './componentes/formulario/formulario.component';
 import { ExtraComponent } from './componentes/extra/extra.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { SignupComponent } from './componentes/pages/signup/signup.component';
+import { SigninComponent } from './componentes/pages/signin/signin.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { LoginComponent } from './componentes/login/login.component';
     PrincipalComponent,
     FormularioComponent,
     ExtraComponent,
-    LoginComponent
+    LoginComponent,
+    SignupComponent,
+    SigninComponent
   ],
   imports: [
     BrowserModule,
